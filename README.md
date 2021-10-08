@@ -24,6 +24,15 @@ All the assignments for Game Dev as images
 
 ![image](https://user-images.githubusercontent.com/5605614/136432646-96ee97a1-ec9a-4421-bfb5-a19186fa122e.png)
 
+
+https://cssreference.io/
+
+http://www.cheat-sheets.org/sites/css.su/
+
+https://www.w3schools.com/html/html_css.asp
+
+
+
 ##    t1a05-input-output-by-fred.html
 
 ![image](https://user-images.githubusercontent.com/5605614/136432695-cba7d8e8-1889-4274-8585-0440b3c19d68.png)
