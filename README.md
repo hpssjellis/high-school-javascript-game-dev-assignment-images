@@ -39,7 +39,7 @@ https://www.w3schools.com/html/html_css.asp
 
 ##    t1a06-variables-by-fred.html
 
-![image](https://user-images.githubusercontent.com/5605614/136432774-81d4d091-2361-49cf-85b0-d907253b15a7.png)
+![image](https://user-images.githubusercontent.com/5605614/136613574-6f506b7e-4e39-4ff2-a3d0-9b04ca0d6211.png)
 
 
 ##  
