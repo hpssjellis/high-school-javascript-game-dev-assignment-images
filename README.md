@@ -55,7 +55,7 @@ https://www.w3schools.com/html/html_css.asp
 
 ##  t1a09-functions-by-fred.html
 
-![image](https://user-images.githubusercontent.com/5605614/137364281-7bdb4f1f-d7c7-4db1-808c-2ec1f641b528.png)
+![image](https://user-images.githubusercontent.com/5605614/137364601-42f1fd28-6bed-4075-8c42-7ef16fd20883.png)
 
 
 
