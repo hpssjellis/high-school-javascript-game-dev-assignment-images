@@ -48,7 +48,15 @@ https://www.w3schools.com/html/html_css.asp
 ![image](https://user-images.githubusercontent.com/5605614/137030820-da4de962-5cc0-4e4d-8430-16f34253dac9.png)
 
 
-##  
+## t1a08-loops-by-fred.html
+![image](https://user-images.githubusercontent.com/5605614/137364461-e11defdf-e024-4294-8c69-fc32615ca9f7.png)
+
+
+
+##  t1a09-functions-by-fred.html
+
+![image](https://user-images.githubusercontent.com/5605614/137364281-7bdb4f1f-d7c7-4db1-808c-2ec1f641b528.png)
+
 
 
 ##   
