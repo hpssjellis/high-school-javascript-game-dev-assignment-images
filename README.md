@@ -49,8 +49,9 @@ https://www.w3schools.com/html/html_css.asp
 
 
 ## t1a08-loops-by-fred.html
-![image](https://user-images.githubusercontent.com/5605614/137364461-e11defdf-e024-4294-8c69-fc32615ca9f7.png)
 
+
+![image](https://user-images.githubusercontent.com/5605614/138125931-101dd806-6c71-4165-aa57-c9a66bd271ad.png)
 
 
 ##  t1a09-functions-by-fred.html
