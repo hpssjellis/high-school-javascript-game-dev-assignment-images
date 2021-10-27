@@ -44,8 +44,9 @@ https://www.w3schools.com/html/html_css.asp
 
 ##  t1a07-decision-by-Fred.html
 
+![image](https://user-images.githubusercontent.com/5605614/139138583-aae3b176-1c1e-4cdd-a5f9-08b4dc253051.png)
 
-![image](https://user-images.githubusercontent.com/5605614/137030820-da4de962-5cc0-4e4d-8430-16f34253dac9.png)
+
 
 
 ## t1a08-loops-by-fred.html
