@@ -81,7 +81,31 @@ https://www.w3schools.com/html/html_css.asp
 ![image](https://user-images.githubusercontent.com/5605614/140825043-04ffad57-5e28-4a54-a72d-833ffd2554cf.png)
 
 
-##    
+##   t2a04-extend-class-by-fred.html
+
+![image](https://user-images.githubusercontent.com/5605614/141003275-7b76636e-1996-4033-9bc8-2ac320c51021.png)
+
+
+##
+
+
+
+##
+
+
+
+
+##
+
+
+
+
+##
+
+
+
+
+##
 
 
 
