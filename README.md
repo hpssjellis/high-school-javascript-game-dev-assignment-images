@@ -86,7 +86,7 @@ https://www.w3schools.com/html/html_css.asp
 ![image](https://user-images.githubusercontent.com/5605614/141003275-7b76636e-1996-4033-9bc8-2ac320c51021.png)
 
 
-##
+##   [t2-test-by-fred.html](public/t2-test-by-fred.html)
 
 
 
