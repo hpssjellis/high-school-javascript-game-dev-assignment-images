@@ -86,21 +86,26 @@ https://www.w3schools.com/html/html_css.asp
 ![image](https://user-images.githubusercontent.com/5605614/141003275-7b76636e-1996-4033-9bc8-2ac320c51021.png)
 
 
-##  Code for  [t2-test-by-fred.html](public/t2-test-by-fred.html)
-
-as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2-test-by-fred.html
 
 
-##  Code for  [t2a04-spy-by-fred.html](public/t2a04-spy-by-fred.html)
+
+##  Code for  T2A05-review-by-fred
+
+On one webpage get all the code working from the following page
+
+as a webpage https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/beginner-examples/tfjs06-javascript.html
+
+
+
+
+##  Code for  [t2a06-spy-by-fred.html](public/t2a04-spy-by-fred.html)
 
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a04-spy-by-fred.html
 
 
-
-
-
-
 ##
+
+
 
 
 
