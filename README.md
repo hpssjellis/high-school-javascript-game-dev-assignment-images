@@ -91,8 +91,11 @@ https://www.w3schools.com/html/html_css.asp
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2-test-by-fred.html
 
 
+##  Code for  [t2a04-spy-by-fred.html](public/t2a04-spy-by-fred.html)
 
-##
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a04-spy-by-fred.html
+
+
 
 
 
