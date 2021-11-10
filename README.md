@@ -98,9 +98,9 @@ as a webpage https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-java
 
 
 
-##  Code for  [t2a06-spy-by-fred.html](public/t2a04-spy-by-fred.html)
+##  Code for  [t2a06-spy-by-fred.html](public/t2a06-spy-by-fred.html)
 
-as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a04-spy-by-fred.html
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a06-spy-by-fred.html
 
 
 ##
