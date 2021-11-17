@@ -1,0 +1,32 @@
+<h1 align=center>t2a12 Sort by Fred</h1>
+
+<script>
+   let myMax = 3      // 52 when working
+   let myCards = new Array(myMax)  
+</script>
+
+<input type=button value="Set Random" onclick="{
+  for ( let myLoop = 0;   myLoop < myMax;  myLoop++){
+     myCards[myLoop] = Math.floor(Math.random()*10)
+  }
+}">
+
+<input type=button value="Show" onclick="{
+  let myTemp = ''
+  for ( let myLoop = 0;   myLoop < myMax;  myLoop++){
+     myTemp += myLoop + ' = '+ myCards[myLoop] + '<br>'
+  }
+   document.getElementById('myDiv01').innerHTML = myTemp
+}">
+
+<input type=button value="Sort" onclick="{
+  let myTemp = 0
+  for ( let myLoop = 0;   myLoop < myMax;  myLoop++){
+     myCards[myLoop] = 0 // you do this stuff
+  }
+}">
+
+<dir id="myDiv01"></div>
+
+
+
