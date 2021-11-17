@@ -103,6 +103,42 @@ as a webpage https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-java
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a06-spy-by-fred.html
 
 
+
+##  Code for  [t2a07-move-background-name.html](public/t2a07-move-background-name.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a07-move-background-name.html
+
+
+##  Code for  [t2a08-canvas-name.html](public/t2a08-canvas-name.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a08-canvas-name
+
+
+
+##  Code for  [t2a9-local-storage-name.html](public/t2a9-local-storage-name.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a9-local-storage-name.html
+
+
+
+##  Code for  [t2a10-translate-name.html](public/t2a10-translate-name.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a10-translate-name.html
+
+
+##  Code for  [t2a11-game-template-fred.html](public/t2a11-game-template-fred.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a11-game-template-fred.html
+
+
+
+
+
+
+
+
+
+
 ##
 
 
