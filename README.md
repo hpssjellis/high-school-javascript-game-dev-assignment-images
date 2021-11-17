@@ -131,6 +131,12 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a11-game-template-fred.html
 
 
+The key to understanding collisions in the game template is this bit of code
+
+![image](https://user-images.githubusercontent.com/5605614/142253313-4d8eb9f5-8671-4ff1-bdd0-4b09973b7aa7.png)
+
+
+
 
 
 
