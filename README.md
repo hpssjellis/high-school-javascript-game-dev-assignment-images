@@ -115,9 +115,9 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 
 
-##  Code for  [t2a9-local-storage-name.html](public/t2a9-local-storage-name.html)
+##  Code for  [t2a09-local-storage-name.html](public/t2a09-local-storage-name.html)
 
-as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a9-local-storage-name.html
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a09-local-storage-name.html
 
 
 
