@@ -1,38 +1,11 @@
-<script> let mySound1 = new Audio('Yeh.mp4') </script>
+<script> let mySound1 = new Audio('Yeh.m4a') </script>
  
 
 
-<h1 align=center>T2A13-Sounds-by-fred.html</h1>
+<h1 align=center>T3A12-Sounds-and-events-name.html</h1>
 
-<b onClick="{
 
-mySound1.play()
-}"> This is bold<br>and several<br>lines<br> Click it to hear a sound!</b></br>
-
-Change the following <input type=text value=5 onChange="{
-
-alert( 'Value changed to:' +this.value)
+<input type=button value=sound onClick="{
+    mySound1.play()
 
 }">
-
-<br><br>
-
-
-<b onMouseMove="{
-mySound1.play()
-}"> bold and onMouseMove </b>
-
-<br><br>
-
-
-This is <b onMouseOver="{
-mySound1.play()
-}"> bold and onMouseOver </b> this isn't<br><br><br>
-
-
-<br><br>
-
-
-This is <b onMouseOut="{
-mySound1.play()
-}"> bold and onMouseOut </b> this isn't<br><br><br>
