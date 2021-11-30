@@ -148,6 +148,17 @@ The key to understanding collisions in the game template is this bit of code
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a12-sort-name2.html
 
 
+##  Code for  [t2a12-sort-name2.html](public/t2a13-sound-by-fred.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a13-sound-by-fred.html
+
+
+
+
+
+
+
+
 
 
 
