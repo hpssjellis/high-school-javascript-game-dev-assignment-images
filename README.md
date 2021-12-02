@@ -119,7 +119,7 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a09-local-storage-name.html
 
-
+------------------
 
 ##  Code for  [t2a10-translate-name.html](public/t2a10-translate-name.html)
 
@@ -131,6 +131,7 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t2a10b-sound-by-fred.html
 
+-----------------
 
 ##  Code for  [t2a11-game-template-fred.html](public/t2a11-game-template-fred.html)
 
