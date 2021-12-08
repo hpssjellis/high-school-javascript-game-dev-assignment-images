@@ -1,4 +1,5 @@
 
+
 <body id="myBody" style="background-repeat:repeat; background-size: 80%" background="myBackground01.jpg">
 
 <h1 align=center>t2a11 Game Template by Fred</h1>
@@ -32,13 +33,17 @@ function myHitOther(my1,my2){
 
 function myCheckHit(){
    if ( myHitOther('myImg01','myImg02') ){
-       alert('you lose')
-      //document.getElementById('myImg01').style.left = '20px'
+       alert('you lose')  
+       document.getElementById('myImg01').style.left = '20px'
+       location = 't2a13-keydown.html'  // go to your next level
    }
 
-   // more if statements here
 
-}
+   // more if statements here like the above
+
+
+
+}  // end of myCheckHit()
 
 
 </script>
@@ -58,7 +63,7 @@ function myCheckHit(){
 }">
 
 
-<input type=button value="Image Right Fast Button onTouchStart"="{this.click(); event.preventDefault();}" onclick="{
+<input type=button value="Image Right Fast Button" onTouchStart="{this.click(); event.preventDefault();}" onclick="{
   document.getElementById('myImg01').style.left = parseInt(document.getElementById('myImg01').style.left) + 10 + 'px'
   myCheckHit()     // checks for all collisions
 }"><br><br>
