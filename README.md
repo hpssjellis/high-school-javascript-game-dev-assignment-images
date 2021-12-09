@@ -2,6 +2,22 @@
 All the assignments for Game Dev as images
 
 
+## Possible online editors
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_editor
+
+
+https://codepen.io/pen/   click the "Strat Coding" button and put all the code into the html side
+
+
+http://jsbin.com/?html,output
+
+
+https://liveweave.com/
+
+
+
+
 ## index.html
 
 ![image](https://user-images.githubusercontent.com/5605614/136431433-54a33ab7-3c84-4da3-83f9-1abb1157d325.png)
