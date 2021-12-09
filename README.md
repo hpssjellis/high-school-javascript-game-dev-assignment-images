@@ -171,11 +171,11 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 ##  Proof-level1-draft-uploaded. 
 
-Use the game template  t2a10-translate-name.html  to make your level1 game. The level1 game must be finished to pass the course
+Use the game template  [t2a11-game-template-fred.html](public/t2a11-game-template-fred.html)  to make your level1 game. The level1 game must be finished to pass the course
 
 ## Proof-level2-draft-uploaded- 
 
-This can be a continuation of the level1 2D Javascript game above or youor own game engine or the following:
+This can be a continuation of the level1 2D Javascript game above or your own game engine or the following:
 
 Typically we use [Construct3](https://www.construct.net/en) online, you do not have to register
 
