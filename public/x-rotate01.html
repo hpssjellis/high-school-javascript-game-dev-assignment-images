@@ -1,0 +1,127 @@
+<html>
+
+<head>
+
+  <script src="http://code.createjs.com/easeljs-0.5.0.min.js"></script>  
+
+<!--  <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>   -->
+
+
+
+    <script>
+
+ 
+
+    var jetSprite;
+
+    var stage;
+
+    var textOut;
+
+ 
+
+    function demo(){
+
+        stage = new createjs.Stage("theCanvas");
+
+ 
+
+        // onFrame will be called each "tick". Default is 50ms, or 20FPS
+
+        createjs.Ticker.addListener(onFrame);
+
+ 
+
+        // Create and configure our jet sprite. regX/Y set the pivot point, we center it
+
+        jetSprite = new createjs.Bitmap("Hairless-cat.jpg");
+
+        jetSprite.regX = jetSprite.image.width/2;
+
+        jetSprite.regY = jetSprite.image.height/2;
+
+        jetSprite.x = stage.canvas.width/2;
+
+        jetSprite.y = stage.canvas.height/2;
+
+ 
+
+        //Now we create a Text object, used for displaying some debug details
+
+       // textOut = new createjs.Text("Debug","24px Arial","red");
+
+       /// textOut.x = 5;
+
+       // textOut.y = 5;
+
+      //  textOut.maxWidth = 390;
+
+ 
+
+        //All the worlds a stage after all... add our sprite and text to it
+
+        stage.addChild(jetSprite);
+
+      //  stage.addChild(textOut);
+
+ 
+
+        //And go...
+
+        stage.update();
+
+    }
+
+ 
+
+    function onFrame(elapsedTime) {
+
+        var angle = Math.atan2(stage.mouseY - jetSprite.y, stage.mouseX - jetSprite.x );
+
+        angle = angle * (180/Math.PI);
+
+ 
+
+        // The following if statement is optional and converts our angle from being
+
+        // -180 to +180 degrees to 0-360 degrees.  It is completely optional
+
+        if(angle < 0)
+
+        {
+
+            angle = 360 - (-angle);
+
+        }
+
+ 
+
+       // textOut.text = "X:" + stage.mouseX + " Y:" + stage.mouseY + " angle:" + Math.round(angle);
+
+ 
+
+        // Atan2 results have 0 degrees point down the positive X axis, while our image is pointed up.
+
+        // Therefore we simply add 90 degrees to the rotation to orient our image
+
+        // If 0 degrees is to the right on your image, you do not need to add 90
+
+        jetSprite.rotation =90 + angle;
+
+ 
+
+        stage.update();
+
+    }
+
+    </script>
+
+</head>
+
+<body onload="demo()">
+
+    <canvas width=400px height=400px id="theCanvas"style="background-color:black"/>
+
+</body>
+
+</html>
