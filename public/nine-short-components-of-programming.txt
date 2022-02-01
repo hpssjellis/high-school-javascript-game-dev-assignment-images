@@ -1,0 +1,74 @@
+The Nine components of programming
+
+1. input / output   -- information into and out of your program
+
+
+
+
+
+
+2. variables  -- store stuff
+
+
+
+
+
+
+3. loops    --repeat stuff
+
+
+
+
+
+
+
+4. decisions   --decide stuff based on stored stuff
+
+
+
+
+
+
+
+
+
+5. functions     -- named group of code that can be called multiple times
+
+
+
+
+
+
+
+6. Arrays -- a numbered list of variables
+
+
+
+
+
+
+
+7. Objects   -- a named list of variables
+
+
+
+
+
+
+
+8. events --trigger computer code
+
+
+
+
+
+
+
+9. Classes  -- groups variables and functions to make programming easier
+
+
+
+
+
+
+
