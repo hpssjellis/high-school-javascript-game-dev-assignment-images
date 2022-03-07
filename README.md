@@ -186,7 +186,8 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 
 
-
+## Helper not for marks.   [x-browser-hack.html](x-browser-hack.html)
+Hack your browser to find all the objects, method (functions) and Properites (variables) preset on your browser.
 
 
 
