@@ -219,7 +219,14 @@ Typically we use [Construct3](https://www.construct.net/en) online, you do not h
 
 
 
-##
+##   Term 4 assignments. Some are bonus!
+
+
+
+
+##  Code for  [t4a01-game-template-with-wasd-by-fred.html](public/t4a01-game-template-with-wasd-by-fred.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a01-game-template-with-wasd-by-fred.html
 
 
 
