@@ -1,0 +1,318 @@
+
+<html>
+<head>
+<title>Game base for Android and Apple</title>
+
+
+<script> 
+
+//Global variables here
+
+myBgPosY = 0;     // present vertical position
+myBgPosX = 0;    // present horizonal position
+myBgHeight = 402;    // height of background image
+myBgWidth = 753;  // width of background image
+myBgSpeedYdown = 0;    // speed moving down 
+myBgSpeedXright = 0;    // speed moving right
+
+
+
+<!-- ********************  Background Scrolling **************************  -->
+
+// myScroll function controls the moving of the background image
+
+function myScroll() {
+
+   myAuto()
+   checkAll()
+
+
+   myBgPosY +=  myBgSpeedYdown;
+   if (myBgPosY > myBgHeight) {myBgPosY = 0}
+   if (myBgPosY <0) {myBgPosY = myBgHeight}
+
+   myBgPosX +=  myBgSpeedXright;
+   if (myBgPosX > myBgWidth) {myBgPosX = 0}
+   if (myBgPosX <0) {myBgPosX = myBgWidth}
+
+
+   myBgObject.style.backgroundPosition = myBgPosX+" " + myBgPosY;
+}
+
+
+
+
+<!-- ********************  Object Detection Starts below **************************  -->
+
+// myHitXY function determines if any object has hit an x, y location. Note it is better to use the myHitOther function
+ 
+function myHitXY(my1,X,Y){
+
+   left1  = parseInt(document.getElementById(my1).style.left)
+   right1   = left1 + parseInt(document.getElementById(my1).style.width)
+
+   top1    = parseInt(document.getElementById(my1).style.top)   
+   bottom1 = top1   + parseInt(document.getElementById(my1).style.height)
+
+   document.getElementById('myShowDiv1').innerHTML = right1  +', '+ left1  +', '+   top1   +', '+  bottom1
+
+   if ((left1   <= X ) &&      	   
+       (right1  >= X ) &&
+       (top1    <= Y ) &&
+       (bottom1 >= Y ) ){
+       return true
+   }
+}
+
+
+
+// myHitOther function determines if two obejcts have hit each other. 
+
+function myHitOther(my1,my2){
+
+
+   left1   = parseInt(document.getElementById(my1).style.left)
+   right1  = left1 + parseInt(document.getElementById(my1).style.width)
+   top1    = parseInt(document.getElementById(my1).style.top)   
+   bottom1 = top1   + parseInt(document.getElementById(my1).style.height)
+
+
+   left2   = parseInt(document.getElementById(my2).style.left)
+   right2  = left2 + parseInt(document.getElementById(my2).style.width)
+   top2    = parseInt(document.getElementById(my2).style.top)   
+   bottom2 = top2   + parseInt(document.getElementById(my2).style.height)
+
+
+
+   if ((right1  >=  left2  ) &&      	   
+       (bottom1 >=  top2   ) &&
+       (left1   <=  right2 ) &&
+       (top1    <=  bottom2) ){
+       return true
+   }
+}
+
+
+
+// Group all your detection code here
+ 
+function checkAll(){
+ 
+  if (myHitXY('move1',200,280)) {
+    document.getElementById('myShowDiv3').innerHTML = 'You hit the red dot'
+  } else {document.getElementById('myShowDiv3').innerHTML = ''}
+ 
+  if (myHitOther('move1','move2')) {
+      document.getElementById('myShowDiv3').innerHTML = 'You hit object move2'
+
+
+
+  }
+
+
+  if (myHitOther('bullet1','move2')) {
+      document.getElementById('myShowDiv3').innerHTML = 'The bullet hit move 2'
+      document.getElementById('bullet1').style.visibility  = 'hidden'
+      document.getElementById('bullet1').style.left  = '-200px'
+      clearInterval(document.myShot)
+
+  }
+
+
+
+
+
+
+
+// just shows where your two objects are to help with debugging
+
+   document.getElementById('myShowDiv1').innerHTML = left1  +', '+ right1  +', '+   top1   +', '+  bottom1
+   document.getElementById('myShowDiv2').innerHTML = left2  +', '+ right2  +', '+   top2   +', '+  bottom2
+
+}
+ 
+
+ 
+
+
+<!-- ********************  Object Detection  finished **************************  -->
+<!-- ********************  Object Motion Below **************************  -->
+
+
+
+
+document.mySpeedX = 0;
+document.mySpeedY = 0;
+
+function myAuto(){
+
+  if(parseInt(document.getElementById('move1').style.left) > window.innerWidth - document.getElementById('move1').width){
+       document.mySpeedX *= -1
+   }
+
+  document.getElementById('move1').style.left = parseInt(document.getElementById('move1').style.left)+document.mySpeedX+'px'
+  document.getElementById('move1').style.top  = parseInt(document.getElementById('move1').style.top)+document.mySpeedY+'px'
+
+}
+
+
+function myGunPrep(){
+
+    document.getElementById('bullet1').style.visibility  = 'visible'
+    document.getElementById('bullet1').style.left  = document.getElementById('move1').style.left
+    document.getElementById('bullet1').style.top   = document.getElementById('move1').style.top
+    
+   clearInterval(document.myShot)
+   document.myShot = setInterval('myGun()', 30) // calls the function every 30 mille seconds
+
+}
+
+
+function myGun(){
+
+    document.getElementById('bullet1').style.left  = parseInt(document.getElementById('bullet1').style.left) + 20 + 'px'
+
+}
+
+
+</script>
+
+</head>
+
+
+
+<!-- ********************  Here the webpage begins **************************  -->
+
+
+
+
+<!-- ********************  onkeypress just for webpages is useless on mobile apps **************************  -->
+
+<body background="myBackground01.jpg" onload="myTimer = setInterval('myScroll()', 100)"    onkeypress="{
+	if(event.keyCode==97){document.mySpeedX += -4}   // small a key
+	if(event.keyCode==119){document.mySpeedY += 6}   // small w key
+	if(event.keyCode==100){alert(you typed the letter d)}   // small d key
+}">
+
+
+<script>        // This object must be after the body tag
+
+myBgObject = eval('document.body');
+
+</script>
+
+
+
+
+
+
+<h2 align=center  style="background-color:yellow"> Game Base by Fred Your Name Here ___</h2>
+
+
+
+<!-- ********************  Some instructions that magically disappear **************************  -->
+
+<div id="myInstructions" onclick="document.getElementById('myInstructions').style.visibility = 'hidden'" style="visibility:visible; width:500px; background-color:yellow">
+<ol>Instructions here:
+<li> Make you own game
+<li> For this demonstration. click the buttons and the red box
+<li> Delete the buttons you do not want in your game.
+<li> Look at the code for each button to see how to make buttons for other directions
+</ol>
+Click to hide.
+</div><br>
+ 
+
+
+
+
+
+
+<!-- ********************  Following should be all your images **************************  -->
+
+
+
+<img  id="move1"  src="myImgNew.jpg"  style="position:absolute; width:30px; height:30px; left:30px; top:250px" onClick="myGunPrep()">  
+ 
+<img  id="move2"  src="myImgNew.jpg" style="position:absolute; width:30px; height:30px;  left:500px; top:240px;"/>
+ 
+<img  id="move3"  src="myImgNew.jpg" style="position:absolute; width:30px; height:30px;  left:600px; top:240px;"/>
+
+
+
+<input type=button value="Fire" onClick="myGunPrep()">
+
+
+<img  id="bullet1" src="myImgNew.jpg" style="position:absolute; width:10px; height:10px;  left:500px; top:240px; visibility:hidden"/>
+
+
+
+
+<!-- ******************** This is the silly little dot the main object hits **************************  -->
+
+<h1 style="position:absolute;left:200px;top:230px;"><font color=red>.</font></h1>
+ 
+
+
+
+
+
+
+
+<!-- ********************  Now all the buttons. Note: ontouchstart is faster than onclick  **************************  -->
+
+
+<input type=button value="BG Faster Down" onClick="myBgSpeedYdown += 1">
+
+<input type=button value="Bg Faster Right" onClick="myBgSpeedXright += 1">
+
+
+
+
+
+<input type=button value="Step Right" onclick="{
+    document.getElementById('move1').style.left  = parseInt(document.getElementById('move1').style.left)+5+'px'
+    checkAll()
+}">
+
+
+<input type=button value="touch event Right" ontouchstart="{
+    document.getElementById('move1').style.left  = parseInt(document.getElementById('move1').style.left)+5+'px'
+    checkAll()
+}">
+
+
+
+
+
+ 
+
+<input type=button value="Auto Down" onClick="{ 
+   document.mySpeedY += 6
+}">
+
+
+<input type=button value="Auto Right" onClick="{
+   document.mySpeedX  +=  4
+
+}"> 
+
+
+
+<!-- ********************  General game output **************************  -->
+
+
+<div id="myShowDiv1" style="width:300px; background-color:yellow">out 1</div>
+<div id="myShowDiv2" style="width:300px; background-color:yellow">out 2</div>
+<div id="myShowDiv3" style="width:300px; background-color:yellow">out 3</div>
+
+
+
+
+<br>At the bottom of every page make sure you include the following button:<br>
+
+<input type=button value="Back" style="font-size:25px" onclick="{window.history.back()}"><br><br>
+
+
+</body>
+</html>
