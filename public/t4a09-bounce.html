@@ -1,20 +1,8 @@
 
 
-<body id="myBody" onLoad="{
+<body id="myBody"  style="background-repeat:repeat; background-size: 80%" background="myBackground01.jpg">
 
-  clearInterval(myTimer02)
-  myTimer02 = setInterval(function(){
-     let my02x = Math.floor((Math.random() * 20) - 9) 
-     let my02y = Math.floor((Math.random() * 20) - 9) 
-     document.getElementById('myImg02').style.left = parseInt(document.getElementById('myImg02').style.left) + my02x + 'px'
-     document.getElementById('myImg02').style.top  = parseInt(document.getElementById('myImg02').style.top)  + my02y + 'px'
-     myCheckHit()     // checks for all collisions
-  }, 50)
-
-
-}" style="background-repeat:repeat; background-size: 80%" background="myBackground01.jpg">
-
-  <h6> Version 0.0.2</h6>
+  <h6> Version 0.0.3</h6>
 <h1 align=center><font color=red>T4A09 Bounce by Fred</font></h1>
 
 
