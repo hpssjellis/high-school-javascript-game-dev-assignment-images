@@ -2,7 +2,7 @@
 
 <body id="myBody"  style="background-repeat:repeat; background-size: 80%" background="myBackground01.jpg">
 
-  <h6> Version 0.1.0-4</h6>
+  <h6> Version 0.1.1-5</h6>
 <h1 align=center><font color=red>T4A09 Bounce by Fred</font></h1>
 
 
@@ -88,6 +88,7 @@ function myCheckHit(){
 <input type=button value="Auto Right" onTouchStart="{this.click(); event.preventDefault();}" onclick="{
 
   clearInterval(myTimer01)
+  clearInterval(myTimer02)
   myTimer01 = setInterval(function(){
      document.getElementById('myImg01').style.left = parseInt(document.getElementById('myImg01').style.left) + myHorizontalSpeed + 'px'
      myCheckHit()     // checks for all collisions
