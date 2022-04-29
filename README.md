@@ -230,6 +230,56 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 
 
+# More slightly different game templates to help with your coding final assignment
+
+
+
+
+
+
+
+##  Code for  [t4a03-complete-fred2.html](public/t4a03-complete-fred2.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a03-complete-fred2.html
+
+
+
+##  Code for  [t4a04-maze2.html](public/t4a04-maze2.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a04-maze2.html
+
+
+
+
+##  Code for  [t4a05-template-with-wasd-and-score.html](public/t4a05-template-with-wasd-and-score.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a05-template-with-wasd-and-score.html
+
+
+
+
+##  Code for  [t4a06-bullet.html](public/t4a06-bullet.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a06-bullet.html
+
+
+
+
+
+##  Code for  [t4a07-boundaries-from-maze.html](public/t4a07-boundaries-from-maze.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a07-boundaries-from-maze.html
+
+
+
+
+
+##  Code for  [t4a08-random-move.html](public/t4a08-random-move.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a08-random-move.html
+
+
+
 
 ##
 
