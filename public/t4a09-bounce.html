@@ -2,7 +2,7 @@
 
 <body id="myBody"  style="background-repeat:repeat; background-size: 80%" background="myBackground01.jpg">
 
-  <h6> Version 0.0.3</h6>
+  <h6> Version 0.1.0-4</h6>
 <h1 align=center><font color=red>T4A09 Bounce by Fred</font></h1>
 
 
@@ -14,7 +14,8 @@
    let myTimer01
    let myTimer02
    let myHorizontalSpeed = 10
-
+   let myVeritcalSpeed  = 6
+   
    // global functions here
 function myHitOther(my1,my2){
    left1   = parseInt(document.getElementById(my1).style.left)
@@ -94,9 +95,22 @@ function myCheckHit(){
 
 
 }"><br><br>
+  
+  
+<input type=button value="Auto Down" onTouchStart="{this.click(); event.preventDefault();}" onclick="{
+
+  clearInterval(myTimer01)
+  clearInterval(myTimer02)
+  myTimer02 = setInterval(function(){
+     document.getElementById('myImg01').style.top = parseInt(document.getElementById('myImg01').style.top) + myVeritcalSpeed + 'px'
+     myCheckHit()     // checks for all collisions
+  }, 50)
+
+
+}"><br><br>
 
 
 <img id="myImg01" src="myImgNew.jpg" title="myImg01" style="position:absolute; width:100px; height:80px; left: 50px; top:190px;">
-<img id="myImg02" src="myImgNew.jpg" title="myImg02" style="position:absolute; width:100px;  height:80px; left:350px; top:190px;">
+<img id="myImg02" src="myImgNew.jpg" title="myImg02" style="position:absolute; width:100px;  height:80px; left:350px; top:390px;">
 
 
