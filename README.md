@@ -279,6 +279,9 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a08-random-move.html
 
 
+##  Code for  [t4a09-bounce.html](public/t4a09-bounce.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a09-bounce.html
 
 
 ##
