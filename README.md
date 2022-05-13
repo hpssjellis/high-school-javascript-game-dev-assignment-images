@@ -284,6 +284,24 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a09-bounce.html
 
 
+
+
+##  Code for  [t4a09-bounce.html](public/z-hackbrowser.html) Traditionally most students do not understand how this browser object information page works. 
+There are multiple blank buttons ready for you to set up an object on the page and then extract information about the object: class names, methods and properties.
+An awesome page but confusing to get fully working
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/z-hackbrowser.html
+
+
+
+
+
+
+
+
+
+
+
 ##
 
 
