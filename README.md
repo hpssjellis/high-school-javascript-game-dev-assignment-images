@@ -119,7 +119,7 @@ as a webpage https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-java
 
 ## t3a11-ML-edgeimpulse.html [EdgeImpulse Machine Learning Model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) to be put on your github. (Make a new folder inside your public folder with an index.html inside the new folder)
 
-Note: The code for the edgeImpulse inde3x.html is here [indexEI.html](public/indexEI.html)
+Note: The code for the edgeImpulse index.html is here [indexEI.html](public/indexEI.html)
 
 
 ## t3a12-ML-huggingFace.html [HuggingFace Javascript Machine Learning Model](https://hpssjellis.github.io/my-examples-of-huggingfacejs/public/index.html) Grab one or two of these example Javascript access to HuggingFace ML Datasets and put them on your github site.
