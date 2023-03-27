@@ -94,10 +94,14 @@ https://www.w3schools.com/html/html_css.asp
 
 ##   t2a03-classes-by-fred.html
 
+You can get the code here   [t2a03-Classes-by-fred.html](public/t2a03-Classes-by-fred.html)
+
 ![image](https://user-images.githubusercontent.com/5605614/140825043-04ffad57-5e28-4a54-a72d-833ffd2554cf.png)
 
 
 ##   t2a04-extend-class-by-fred.html
+
+You can get the code here   [t2a04-extend-class-by-fred.html](public/t2a04-extend-class-by-fred.html)
 
 ![image](https://user-images.githubusercontent.com/5605614/141003275-7b76636e-1996-4033-9bc8-2ac320c51021.png)
 
@@ -110,6 +114,14 @@ https://www.w3schools.com/html/html_css.asp
 On one webpage get all the code working from the following page
 
 as a webpage https://hpssjellis.github.io/beginner-tensorflowjs-examples-in-javascript/beginner-examples/tfjs06-javascript.html
+
+
+
+## t3a11-ML-edgeimpulse.html [EdgeImpulse Machine Learning Model](https://hpssjellis.github.io/multi-language-edgeimpulse-tutorial-vision-cell-phone/) to be put on your github. (Make a new folder inside your public folder with an index.html inside the new folder)
+
+
+## t3a12-ML-huggingFace.html [HuggingFace Javascript Machine Learning Model](https://hpssjellis.github.io/my-examples-of-huggingfacejs/public/index.html) Grab one or two of these example Javascript access to HuggingFace ML Datasets and put them on your github site.
+
 
 
 
@@ -302,9 +314,6 @@ Pyscript  allows Python inside a webpage. Best way to learan is look at the exam
 
 
 ##
-
-
-
 
 
 
