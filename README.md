@@ -299,7 +299,7 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 
 
-##  Code for  [t4a09-bounce.html](public/t4a10-flappy.html)
+##  Code for  [t4a10-flappy.html](public/t4a10-flappy.html)
 
 as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a10-flappy.html
 
