@@ -70,6 +70,10 @@ For this see if you can auto polulate the select box
 <img width="529" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/3640c729-379b-4fd6-ad16-146ac3b976c7">
 
 
+## t1z04-classes-fred.html
+
+<img width="722" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/027f1117-ce2f-4594-841f-3d8e47bdae5b">
+
 
 <hr>
 
