@@ -48,7 +48,10 @@ http://www.cheat-sheets.org/sites/css.su/
 https://www.w3schools.com/html/html_css.asp
 
 <hr>
-# Special 2023 Full VIDEO-FLAC assignments
+
+## Special 2023 Full VIDEO-FLAC assignments
+As this years class is has very advanced students, we are doing some live coding based on situations madeup in class
+The cod ebelow was made on the fly and is the starting point for improvements.
 
 ## t1z01-first-javascript-fred.html
 
@@ -60,7 +63,17 @@ https://www.w3schools.com/html/html_css.asp
 <img width="413" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/058557e5-1f40-4d9c-90c7-e5f015721815">
 
 
+
+## t1z03-array-zombie-fred.html
+
+For this see if you can auto polulate the select box  
+<img width="529" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/3640c729-379b-4fd6-ad16-146ac3b976c7">
+
+
+
 <hr>
+
+## Back to the regular Course
 
 ##    t1a05-input-output-by-fred.html
 
