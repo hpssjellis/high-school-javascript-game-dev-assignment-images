@@ -47,7 +47,20 @@ http://www.cheat-sheets.org/sites/css.su/
 
 https://www.w3schools.com/html/html_css.asp
 
+<hr>
+# Special 2023 Full VIDEO-FLAC assignments
 
+## t1z01-first-javascript-fred.html
+
+<img width="504" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/43a7f678-19d7-45ba-9455-01f5e0cdf658">
+
+
+## t1z02-object-zombie-fred.html
+
+<img width="413" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/058557e5-1f40-4d9c-90c7-e5f015721815">
+
+
+<hr>
 
 ##    t1a05-input-output-by-fred.html
 
