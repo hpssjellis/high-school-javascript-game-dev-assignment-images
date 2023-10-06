@@ -84,6 +84,22 @@ For this see if you can auto polulate the select box
 <img width="722" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/027f1117-ce2f-4594-841f-3d8e47bdae5b">
 
 
+
+
+
+
+
+
+## t1a05-year2-trivia-fred.html
+
+<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/2b4dad57-67b3-4659-a850-930e4ee8de82">
+
+
+## t1a06-tear2-calc-fred.html
+
+
+<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/67224638-a290-4fec-94f1-33de6e56fcfb">
+
 <hr>
 
 ## Back to the regular Course
