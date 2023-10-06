@@ -100,6 +100,29 @@ For this see if you can auto polulate the select box
 
 <img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/67224638-a290-4fec-94f1-33de6e56fcfb">
 
+
+## t1a07-map-fred.html
+
+<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/82e7cc67-d4fc-45d8-bc76-f6777529afa4">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <hr>
 
 ## Back to the regular Course
