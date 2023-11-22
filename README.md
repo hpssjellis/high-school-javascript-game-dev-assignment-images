@@ -418,9 +418,11 @@ code [here] [public/php.php]
 
 ![image](https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/34d51564-9073-4209-ab81-20bf30cda29d)
 
-an example of this running in a codesandbox is here
+A working example of this running in a codesandbox is here
 
 https://ckp8k3-8080.csb.app/index.php
+
+and the sandbox can be forked from   https://codesandbox.io/p/devbox/php-example02-input-ckp8k3
 
 
 
