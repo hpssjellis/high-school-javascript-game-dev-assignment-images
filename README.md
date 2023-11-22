@@ -408,5 +408,13 @@ Pyscript  allows Python inside a webpage. Best way to learan is look at the exam
 ##
 
 
+# Startup php
 
+Go to code sandbox and start a PHP container
+
+By the way php is best for using mySQL and similar databases. Might be a good idea to try to use those.
+
+code [here] [public/php.php]
+
+![image](https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/34d51564-9073-4209-ab81-20bf30cda29d)
 
