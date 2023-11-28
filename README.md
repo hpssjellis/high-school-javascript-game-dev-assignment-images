@@ -58,33 +58,6 @@ https://www.w3schools.com/html/html_css.asp
 
 <hr>
 
-## Special 2023 Full VIDEO-FLAC assignments
-As this years class is has very advanced students, we are doing some live coding based on situations madeup in class
-The cod ebelow was made on the fly and is the starting point for improvements.
-
-## t1z01-first-javascript-fred.html
-
-<img width="504" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/43a7f678-19d7-45ba-9455-01f5e0cdf658">
-
-
-## t1z02-object-zombie-fred.html
-
-<img width="413" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/058557e5-1f40-4d9c-90c7-e5f015721815">
-
-
-
-## t1z03-array-zombie-fred.html
-
-For this see if you can auto polulate the select box  
-<img width="529" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/3640c729-379b-4fd6-ad16-146ac3b976c7">
-
-
-## t1z04-classes-fred.html
-
-<img width="722" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/027f1117-ce2f-4594-841f-3d8e47bdae5b">
-
-
-
 
 
 
@@ -423,6 +396,48 @@ A working example of this running in a codesandbox is here
 https://ckp8k3-8080.csb.app/index.php
 
 and the sandbox can be forked from   https://codesandbox.io/p/devbox/php-example02-input-ckp8k3
+
+
+
+
+
+
+## Special 2023 Full VIDEO-FLAC assignments
+As this years class has very advanced students, we are doing some live coding based on situations madeup in class
+The code below was made on the fly and is the starting point for improvements. Or are a problem given to the students and they find results that then we show the other students
+
+## t1z01-first-javascript-fred.html
+
+<img width="504" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/43a7f678-19d7-45ba-9455-01f5e0cdf658">
+
+
+## t1z02-object-zombie-fred.html
+
+<img width="413" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/058557e5-1f40-4d9c-90c7-e5f015721815">
+
+
+
+## t1z03-array-zombie-fred.html
+
+For this see if you can auto polulate the select box  
+<img width="529" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/3640c729-379b-4fd6-ad16-146ac3b976c7">
+
+
+## t1z04-classes-fred.html
+
+<img width="722" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/027f1117-ce2f-4594-841f-3d8e47bdae5b">
+
+
+
+## t2z06 CodeSandBox PHP
+
+<img width="435" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/c83f0350-02c2-47da-9d97-04d180a5cace">
+
+
+## t2z07-codesandbox-python-to-web     Try this repo https://github.com/hpssjellis/codesandbox-docker-python-web
+
+<img width="398" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/bb98644a-bbce-460b-b227-eb2ad1fa7158">
+
 
 
 
