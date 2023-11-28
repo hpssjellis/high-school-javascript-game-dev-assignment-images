@@ -63,20 +63,6 @@ https://www.w3schools.com/html/html_css.asp
 
 
 
-## t1a05-year2-trivia-fred.html
-
-<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/2b4dad57-67b3-4659-a850-930e4ee8de82">
-
-
-## t1a06-year2-calc-fred.html
-
-
-<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/67224638-a290-4fec-94f1-33de6e56fcfb">
-
-
-## t1a07-year2-map-fred.html
-
-<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/82e7cc67-d4fc-45d8-bc76-f6777529afa4">
 
 
 
@@ -91,14 +77,6 @@ https://www.w3schools.com/html/html_css.asp
 
 
 
-
-
-
-
-
-<hr>
-
-## Back to the regular Course
 
 ##    t1a05-input-output-by-fred.html
 
@@ -437,6 +415,28 @@ For this see if you can auto polulate the select box
 ## t2z07-codesandbox-python-to-web     Try this repo https://github.com/hpssjellis/codesandbox-docker-python-web
 
 <img width="398" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/bb98644a-bbce-460b-b227-eb2ad1fa7158">
+
+
+
+
+
+
+
+## t1a05-year2-trivia-fred.html
+
+<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/2b4dad57-67b3-4659-a850-930e4ee8de82">
+
+
+## t1a06-year2-calc-fred.html
+
+
+<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/67224638-a290-4fec-94f1-33de6e56fcfb">
+
+
+## t1a07-year2-map-fred.html
+
+<img width="700" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/82e7cc67-d4fc-45d8-bc76-f6777529afa4">
+
 
 
 
