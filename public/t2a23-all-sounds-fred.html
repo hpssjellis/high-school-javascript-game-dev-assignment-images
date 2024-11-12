@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T3A12-Sounds-name.html</title>
+</head>
+<body>
+    <h1 align="center">t2a23-all-sounds-fred.html</h1>
+
+    <input type="button" value="sound" onClick="mySound1.play()">
+
+    <br><br>
+
+    <input type="text" id="textToRead" placeholder="Enter text to read">
+    <select id="voiceSelect"></select>
+    <input type="button" value="Read Text" onClick="readText()">
+
+    <script>
+        let mySound1 = new Audio('Yeh.m4a');
+
+        function populateVoiceList() {
+            if (typeof speechSynthesis === 'undefined') {
+                return;
+            }
+
+            let voices = speechSynthesis.getVoices();
+            let voiceSelect = document.getElementById('voiceSelect');
+
+            voices.forEach((voice) => {
+                let option = document.createElement('option');
+                option.textContent = `${voice.name} (${voice.lang})`;
+
+                option.setAttribute('data-lang', voice.lang);
+                option.setAttribute('data-name', voice.name);
+                voiceSelect.appendChild(option);
+            });
+        }
+
+        function readText() {
+            let text = document.getElementById('textToRead').value;
+            let speech = new SpeechSynthesisUtterance(text);
+            let selectedOption = document.getElementById('voiceSelect').selectedOptions[0].getAttribute('data-name');
+            let voices = speechSynthesis.getVoices();
+
+            for (let i = 0; i < voices.length; i++) {
+                if (voices[i].name === selectedOption) {
+                    speech.voice = voices[i];
+                    break;
+                }
+            }
+
+            window.speechSynthesis.speak(speech);
+        }
+
+        populateVoiceList();
+        if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
+            speechSynthesis.onvoiceschanged = populateVoiceList;
+        }
+    </script>
+</body>
+</html>
