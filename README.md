@@ -14,7 +14,7 @@ All the assignments for Game Dev as images
 ## Possible online editors.
 
 Note: As of 2023 I really like [codesandbox](https://codesandbox.io/dashboard/recent)   other than some confusing things that it wants you to fork your boxes, 
-I think it is the best editor for a course like this since you typically can make a URL that then loads the entire backaend for your advanced code.  
+I think it is the best editor for a course like this since you typically can make a URL that then loads the entire backend for your advanced code.  
 
 For static code we typically use GitPages which is part of github.
 
