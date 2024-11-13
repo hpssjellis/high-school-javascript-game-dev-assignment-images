@@ -4,7 +4,7 @@ All the assignments for Game Dev as images
 ### Short version of VIDEO-FLAC 
 <img width="600" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/11720ade-f847-4961-aace-08af0412dec5">
 
-### Long Version of VIDOE-FLAC
+### Long Version of VIDEO-FLAC
 
 
 
