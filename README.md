@@ -16,7 +16,7 @@ All the assignments for Game Dev as images
 Note: As of 2023 I really like [codesandbox](https://codesandbox.io/dashboard/recent)   other than some confusing things that it wants you to fork your boxes, 
 I think it is the best editor for a course like this since you typically can make a URL that then loads the entire backend for your advanced code.  
 
-For static code we typically use GitPages which is part of github.
+For static code we typically use GitPages which is part of GitHub.
 
 Other Editors:
 
@@ -24,7 +24,7 @@ Other Editors:
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_editor
 
 
-https://codepen.io/pen/   click the "Strat Coding" button and put all the code into the html side
+https://codepen.io/pen/   click the "Start Coding" button and put all the code into the html side
 
 
 http://jsbin.com/?html,output
@@ -256,9 +256,9 @@ Typically we use [Construct3](https://www.construct.net/en) online, you do not h
 1. click "Try now"
 2. click on a template, some are paid ones I suggest to try "Driving"
 3. Click preview, play game to make sure it works
-4. Menu --> Project --> Export --> Web (HTML5) --> Next --> Next --> click Download...template.zip
+4. Menu --> Project --> Export --> Web (HTML5) --> Next --> Next --> click Download... template.zip
 5. Extract the zipped file and drag the entire folder to your github
-6. Create an index link to the folderr name
+6. Create an index link to the folder name
 7. Test your online javascript level 2 game.
 
 
@@ -359,7 +359,7 @@ as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assign
 
 # Wow: A student found [pyScript](https://pyscript.net/examples/), 
 
-Pyscript  allows Python inside a webpage. Best way to learan is look at the examples and then right-click-view-webpage  https://pyscript.net/examples/
+PyScript  allows Python inside a webpage. Best way to learn is look at the examples and then right-click-view-webpage  https://pyscript.net/examples/
 
 
 
@@ -390,7 +390,7 @@ and the sandbox can be forked from   https://codesandbox.io/p/devbox/php-example
 
 ## Special 2023 Full VIDEO-FLAC assignments
 As this years class has very advanced students, we are doing some live coding based on situations madeup in class
-The code below was made on the fly and is the starting point for improvements. Or are a problem given to the students and they find results that then we show the other students
+The code below was made on the fly and is the starting point for improvements. Or are a problem given to the students and they find results, that then we show the other students
 
 ## t1z01-first-javascript-fred.html
 
@@ -405,7 +405,7 @@ The code below was made on the fly and is the starting point for improvements. O
 
 ## t1z03-array-zombie-fred.html
 
-For this see if you can auto polulate the select box  
+For this see if you can auto populate the select box  
 <img width="529" alt="image" src="https://github.com/hpssjellis/high-school-javascript-game-dev-assignment-images/assets/5605614/3640c729-379b-4fd6-ad16-146ac3b976c7">
 
 
