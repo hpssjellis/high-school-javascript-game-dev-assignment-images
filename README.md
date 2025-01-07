@@ -448,4 +448,7 @@ For this see if you can auto populate the select box
 
 
 
+##  Code for  [t4a11-llm-client-side.html](public/t4a11-llm-client-side.html) This is a very impressive client side free LLM that you can choose from large or small models that may work depending on your computers power.
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t4a11-llm-client-side.html
 
