@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Webcam Snapshot</title>
+</head>
+<body>
+  <h1>My Webcam Snapshot</h1>
+  <video id="myVideo" autoplay playsinline width="640" height="480"></video>
+  <br>
+  <button id="mySaveBtn" onclick="mySaveSnapshot()">Save Image</button>
+  <canvas id="myCanvas" width="640" height="480""></canvas>
+
+  <script>
+    const myVideoEl = document.getElementById('myVideo');
+    const myCanvasEl = document.getElementById('myCanvas');
+    const myCanvasContext = myCanvasEl.getContext('2d');
+
+    async function myStartWebcam() {
+      try {
+        const myMediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
+        myVideoEl.srcObject = myMediaStream;
+      } catch (myMediaError) {
+        alert("Error accessing webcam: " + myMediaError.message);
+      }
+    }
+
+    async function mySaveSnapshot() {
+      myCanvasContext.drawImage(myVideoEl, 0, 0, myCanvasEl.width, myCanvasEl.height);
+      const myImageUrl = myCanvasEl.toDataURL('image/png');
+
+      const myDownloadLink = document.createElement('a');
+      myDownloadLink.href = myImageUrl;
+      myDownloadLink.download = 'mySnapshot.png';
+      myDownloadLink.click();
+    }
+
+    myStartWebcam();
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Webcam Snapshot</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 40px;
+    }
+    video, canvas {
+      border: 1px solid #ccc;
+      max-width: 100%;
+    }
+    #mySaveBtn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Webcam Snapshot</h1>
+  <video id="myVideo" autoplay playsinline width="640" height="480"></video>
+  <br>
+  <button id="mySaveBtn" onclick="mySaveSnapshot()">Save Image</button>
+  <canvas id="myCanvas" width="640" height="480" style="display: none;"></canvas>
+
+  <script>
+    const myVideoEl = document.getElementById('myVideo');
+    const myCanvasEl = document.getElementById('myCanvas');
+    const myCanvasContext = myCanvasEl.getContext('2d');
+
+    async function myStartWebcam() {
+      try {
+        const myMediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
+        myVideoEl.srcObject = myMediaStream;
+      } catch (myMediaError) {
+        alert("Error accessing webcam: " + myMediaError.message);
+      }
+    }
+
+    async function mySaveSnapshot() {
+      myCanvasContext.drawImage(myVideoEl, 0, 0, myCanvasEl.width, myCanvasEl.height);
+      const myImageUrl = myCanvasEl.toDataURL('image/png');
+
+      const myDownloadLink = document.createElement('a');
+      myDownloadLink.href = myImageUrl;
+      myDownloadLink.download = 'mySnapshot.png';
+      myDownloadLink.click();
+    }
+
+    myStartWebcam();
+  </script>
+</body>
+</html>
