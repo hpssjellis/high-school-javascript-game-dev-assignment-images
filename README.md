@@ -34,6 +34,17 @@ http://jsbin.com/?html,output
 https://liveweave.com/
 
 
+## 2025 extra assignments
+
+
+## t1a02-vibe-clean-show-fred.html
+
+
+##  Code for  [t1a02-vibe-clean-show-fred.html](public/t1a02-vibe-clean-show-fred.html)
+
+as a webpage https://hpssjellis.github.io/high-school-javascript-game-dev-assignment-images/public/t1a02-vibe-clean-show-fred.html
+
+
 
 
 ## index.html
