@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Async Evolution: Same Task, Different Methods</title>
+</head>
+<body>
+
+    <h1 align="center">🦊 t2a23d-asyn-await-history-fred.html</h1>
+    <p>Run the demos below to see how **Legacy AJAX (XHR)**, **Promises (.then)**, and **Async/Await** all perform the same simple task: fetching JSON data from an API. The output box will show the fetched data.</p>
+
+    <div style="margin-bottom: 20px;">
+        <label for="api-url" style="font-weight: bold;">API URL:</label>
+        <textarea id="api-url" rows="2" cols="120" style="margin-bottom: 10px;">https://randomfox.ca/floof/</textarea><br>
+        
+        <button onclick="fetchAjaxXhr()">1. Run Legacy XHR (AJAX)</button>
+        <button onclick="fetchPromiseChain()">2. Run Promises (.then)</button>
+        <button onclick="fetchAsyncAwait()">3. Run Async/Await</button>
+        <button onclick="document.getElementById('results').innerHTML = 'Output Cleared...';">Clear Output</button>
+    </div>
+
+    <div id="results" style="font-family: monospace; white-space: pre-wrap; padding: 10px; border: 1px solid #ccc; background-color: #f7f7f7;">
+        Output Cleared...
+    </div>
+
+    <script>
+        const output = document.getElementById('results');
+
+        function getApiUrl() {
+            return document.getElementById('api-url').value;
+        }
+
+        function log(message) {
+            output.innerHTML += `${message}\n`;
+        }
+        
+        function logData(data, method) {
+             const myJson = JSON.stringify(data, null, 2);
+             log(`\n--- ${method} Result ---`);
+             // Use <pre> to display formatted JSON nicely
+             output.innerHTML += `<pre>${myJson}</pre>`;
+        }
+
+        // --- 1. LEGACY AJAX (XMLHttpRequest) ---
+        function fetchAjaxXhr() {
+            log("\n--- XMLHttpRequest (XHR) Started ---");
+            const url = getApiUrl();
+            const xhr = new XMLHttpRequest();
+
+            // STEP 1: Define the callback function to run on load
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    try {
+                        // The raw response text needs to be parsed manually
+                        const data = JSON.parse(xhr.responseText);
+                        logData(data, "XHR (AJAX)");
+                        log("✅ XHR Complete: Requires manual JSON parsing and callback handling.\n------------------------------------------------------\n");
+                    } catch (e) {
+                        log('❌ XHR Error: JSON parsing failed.');
+                    }
+                } else {
+                    log(`❌ XHR Error: HTTP status ${xhr.status} for ${url}`);
+                }
+            };
+
+            xhr.onerror = () => log("❌ XHR Error: A network error occurred.");
+
+            // STEP 2: Configure and send the request
+            xhr.open('GET', url, true);
+            xhr.send();
+            log(`...XHR request sent to ${url}`);
+        }
+
+        // --- 2. PROMISES (Fetch API) ---
+        function fetchPromiseChain() {
+            log("\n--- Promises (.then) Started ---");
+            const url = getApiUrl();
+            
+            // STEP 1: fetch returns a Promise
+            fetch(url)
+                // STEP 2: Check for HTTP errors and return the response body as JSON (which is a new Promise)
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP Error! Status: ${response.status}`);
+                    return response.json(); 
+                })
+                // STEP 3: Handle the resolved JSON data
+                .then(data => {
+                    logData(data, "Promises (.then)");
+                    log("✅ Promises Complete: Solves nesting with **.then() chaining**.\n------------------------------------------------------\n");
+                })
+                // STEP 4: Handle any errors in the chain
+                .catch(error => {
+                    log(`❌ Promise Error: ${error.message}`);
+                });
+
+            log(`...Promise fetch initiated to ${url}`);
+        }
+
+        // --- 3. ASYNC/AWAIT (ES2017) ---
+        async function fetchAsyncAwait() {
+            log("\n--- Async/Await Started ---");
+            const url = getApiUrl();
+            
+            try {
+                // STEP 1: Use 'await' to pause and wait for the response object
+                const response = await fetch(url);
+                
+                // Check for HTTP errors
+                if (!response.ok) {
+                    throw new Error(`HTTP Error! Status: ${response.status}`);
+                }
+                
+                // STEP 2: Use 'await' to pause and wait for the JSON parsing
+                const data = await response.json();
+                
+                logData(data, "Async/Await");
+                log("✅ Async/Await Complete: Reads like synchronous code using familiar **try/catch**.\n------------------------------------------------------\n");
+
+            } catch (error) {
+                // Handle all errors (network, HTTP, or JSON parsing)
+                log(`❌ Async/Await Error: ${error.message}`);
+            }
+            log(`...Async/Await fetch initiated to ${url}`);
+        }
+
+    </script>
+
+</body>
+</html>
