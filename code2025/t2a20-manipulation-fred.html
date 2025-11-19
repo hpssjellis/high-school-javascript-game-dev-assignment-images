@@ -1,0 +1,29 @@
+<h1 align=center>t2a20-manipulation-fred.html</h1>
+
+String, Array, Object manipulation methods<br>
+
+<input id="myNum01" type=text value="This is a string" ><br> 
+<span id="mySpan01">...</span><br>
+
+<input type=button value=".toUpperCase()" onclick="{
+    let myIn = document.getElementById('myNum01').value
+    document.getElementById('mySpan01').innerHTML = myIn.toUpperCase()
+}"><br>
+
+<input type=button value=".split() makes and array" onclick="{
+    let myIn = document.getElementById('myNum01').value
+    document.getElementById('mySpan01').innerHTML = myIn.split('')
+}"><br>
+
+<input type=button value="Object.keys() returns array" onclick="{
+    let myObject = {
+        first: 10,
+        second: 'Hello',
+        third: true
+    }
+    let keyArray = Object.keys(myObject)
+    document.getElementById('mySpan01').innerHTML = keyArray
+}"><br>
+
+
+
