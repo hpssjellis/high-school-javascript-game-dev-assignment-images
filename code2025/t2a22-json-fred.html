@@ -1,0 +1,38 @@
+
+  <h1 align="center">t2a22-json-fred.html</h1>
+
+  <script>
+    async function fetchData(url){
+      const response = await fetch(url);
+      const data = await response.json();
+      console.log(data);
+      console.log(`data.status: ${data.status}`);
+      const myJson = JSON.stringify(data, null, 2);
+      document.getElementById('myDiv1').innerHTML = `<pre>${myJson}</pre>`;
+
+      let imageUrl = '';
+      if (data.image) {
+        imageUrl = data.image; 
+      } 
+
+      if (imageUrl) {
+        document.getElementById('myDiv1').innerHTML += `<img src="${imageUrl}" alt="Random Image" style="max-width: 100%; height: auto;">`;
+      }
+
+   }
+
+
+  </script>
+
+
+  <select id="mySelect" size="1" onchange="fetchData(this.value)">
+    <option ></option>   
+    <option value="https://randomfox.ca/floof/">randomfox</option>
+  </select><br><br>
+
+  You make the JSON show up on the DIV<br><br>
+
+  <div id="myDiv1">...</div>
+
+</body>
+</html>
