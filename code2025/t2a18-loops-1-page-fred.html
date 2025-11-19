@@ -1,0 +1,73 @@
+<h1 align=center>t2a18-loops-1-page-fred</h1>
+
+
+Use an LLM to make a one page html file that shows all the types of javascript loops, then print the page and circle the code you don't understand.
+
+
+let output = '';
+for (let i = 0; i < 3; i++) {
+    output += 'Count: ' + i + '\n';
+}
+
+
+
+let output = '';
+let i = 0;
+while (i < 3) {
+    output += 'Index: ' + i + '\n';
+    i++;
+}
+
+
+
+let output = '';
+let i = 5; // Condition is false initially
+do {
+    output += 'Run: ' + i + '\n';
+    i++;
+} while (i < 3);
+
+
+
+const user = { name: 'Alice', age: 30 };
+let output = '';
+for (const key in user) {
+    output += key + ': ' + user[key] + '\n';
+}
+
+
+
+const fruits = ['Apple', 'Banana'];
+let output = '';
+for (const fruit of fruits) {
+    output += 'Fruit: ' + fruit + '\n';
+}
+
+
+const numbers = [10, 20];
+numbers.forEach((num, index) => {
+    // Gets value and index
+});
+
+
+async function* generator() { yield 100; yield 200; }
+// Must be inside an async function
+for await (const val of generator()) {
+    // Waits for each value
+}
+
+
+
+const nums = [1, 2];
+const squared = nums.map(n => n * 2);
+// Result: [2, 4]
+
+
+const ages = [10, 20];
+const adults = ages.filter(a => a >= 18);
+// Result: [20]
+
+
+const vals = [1, 2];
+const sum = vals.reduce((acc, curr) => acc + curr, 0);
+// Result: 3
