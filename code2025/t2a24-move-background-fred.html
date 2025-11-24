@@ -1,0 +1,30 @@
+
+<body id="myBody" style="background-repeat:repeat; background-size: 80%" background="myBackground01.jpg">
+<h1 align=center>t2a24-move-background-fred.html</h1>
+  
+<script>
+   let myGlobalX = 0
+   let myClock
+</script>
+
+<input id="myButton01" type=button value="background move left" onclick="{
+  myTemp = '100px 0px'
+  myGlobalX -= 5
+  myTemp =  myGlobalX + 'px 0px'
+  document.getElementById('myBody').style.backgroundPosition =myTemp
+
+}">
+
+<input type=button value="Auto Background Left" onclick="{
+  clearInterval(myClock)
+  myClock = setInterval(function(){
+     document.getElementById('myButton01').click() 
+  }, 100)
+    
+}">
+
+<input type=button value="Image Right" onclick="{
+  document.getElementById('myImage01').style.left = parseInt(document.getElementById('myImage01').style.left) + 10 + 'px'
+}"><br><br>
+
+<img id="myImage01" style="position:relative; width:100px; height:80px; top:0px; left:0px;" src="myImage01.jpg">
