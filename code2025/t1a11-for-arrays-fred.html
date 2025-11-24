@@ -1,0 +1,31 @@
+<script>
+   let myArray = new Array()
+  
+   myArray[0] = 'Fred'
+   myArray[1] = 'Mary'
+   myArray[2] = 'Zizzy'
+
+</script>
+
+<h2 align=center>t1a11-for-arrays-fred.html</h2>
+
+Max Array Entry: <input type=text id="myText01" value="3"><br>
+
+<input type=button value="Example onClick" onClick="{
+   let myMax = document.getElementById('myText01').value
+   let mySum = ''
+   document.getElementById('myDiv01').innerHTML = ' '
+
+   for (let myLoop=0;   myLoop < myMax;  myLoop++){
+      mySum += 'Loop #:' + myLoop + ' array entry: ' + myArray[myLoop] +'<br>'
+   }
+   document.getElementById('myDiv01').innerHTML = mySum
+}">
+
+<div id="myDiv01">...</div>
+
+
+<br>
+
+You do at least 7 other arrays:<br>
+

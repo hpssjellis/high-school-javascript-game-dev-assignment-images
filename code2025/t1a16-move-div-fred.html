@@ -1,0 +1,46 @@
+<body onkeypress="myKeyPress(event)">
+
+<script>
+   let myTimer01
+
+   function myAuto(){
+     const myIm = document.getElementById('myImage01')
+     myIm.style.left = parseInt(myIm.style.left) + 5 +'px'
+     if (parseInt(myIm.style.left) > 600){
+          myIm.style.left = '10px'
+     }
+   }
+
+   function myKeyPress(event) {
+      alert(`You pressed: ${event.key}`);
+   }
+</script>
+
+<h1 align=center>t1a16-move-div-fred.html</h1>
+
+Have 8 different tyopes of objects move in different ways
+
+
+<div style="position:relative; left:0; right:0" id="myDiv01">...</div>
+
+<button onclick="{
+   const myDiv = document.getElementById('myDiv01')
+   myDiv.style.left = '100px'
+}">Move to 100px</button><br>
+
+
+<button  id="myButton02" onclick="{
+   const myDiv = document.getElementById('myDiv01')
+   myDiv.style.left = parseInt(myDiv.style.left) + 20 +'px'
+}">Move Right</button><br>
+
+
+<b onclick="{
+    myTimer01 = setInterval(myAuto, 50)
+}">Move auto</b><br>
+
+
+<img src="myImage01.jpg" id="myImage01" width=40 style="position:relative; left:0; right:0">
+
+
+
