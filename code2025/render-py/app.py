@@ -1,5 +1,7 @@
 from flask import Flask, request
 
+#  RENDER Settings start command needs      gunicorn app:app
+
 # The Flask application object must be available at the top level
 app = Flask(__name__) 
 MAGIC_WORD = 'fred'
