@@ -1,0 +1,15 @@
+{
+  "name": "php-magic-word-checker",
+  "version": "1.0.0",
+  "description": "A simple PHP form application deployed on Render, using the built-in PHP web server.",
+  "main": "index.php",
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT -t ."
+  },
+  "keywords": [
+    "php",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC"
+}
